@@ -9,15 +9,15 @@
   gap: 48px;
 
   @media (max-width:768px) {
-    grid-template-columns: repeat(3, 200px);
+    grid-template-columns: repeat(3, $product-width);
   }
 
   @media (max-width:$main-width) {
-    grid-template-columns: repeat(2, 200px);
+    grid-template-columns: repeat(2, $product-width);
   }
 
   @media (max-width:$main-width) {
-    grid-template-columns: repeat(1, 200px);
+    grid-template-columns: repeat(1, $product-width);
   }
 
   &__card {
